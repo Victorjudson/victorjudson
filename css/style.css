@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #e7e2e2;
+  line-height: 1.6;
+  background-color: #363535f3;
+  padding: 20px;
+}
+
+header nav ul li a {
+  color: #e7e2e2;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 80px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+header nav {
+  background-color: #3a3939;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #7c7a7a;
+}
+
+/* Edição do conteúdo e img;*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #363535;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section img {
+  border-radius: 250px;
+  box-shadow: 0 0 10px rgba(97, 91, 91, 0.1);
+  max-width: 390px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+}
+.text h1 {
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
+
+/* Edição da lista de contato pessoal*/
+
+section {
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #e7e2e2;
+}
+
+/* tema claro */
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode nav a {
+  color: #323233;
+}
+
+body.light-mode button #mudancaDeTema {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+body.light-mode .container {
+  background-color: #f0f0f0;
+}
+body.light-mode nav {
+  background-color: #f0f0f0;
+}
+
+/* edição do butão de mudança de tema */
+
+header button {
+  background-color: #464545;
+  color: #e7e2e2;
+}
+
+/* estilização dos formularios */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+#buttonEviar {
+  width: 70px;
+}

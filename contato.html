@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Sobre Mim</a></li>
+          <li><a href="form.html">Formação</a></li>
+          <li><a href="xp.html">Projetos e XP</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="contato">
+        <div class="text">
+          <h1>Contato</h1>
+
+          <form class="contato">
+            <div>
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Seu Nome"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Seu E-mail"
+                required
+              />
+            </div>
+            <div>
+              <label for="message">Mensagem:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="1"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" id="buttonEviar">Enviar</button>
+          </form>
+
+          <ul>
+            <li><strong>Email:</strong> vjudson08@gmail.com</li>
+            <li><strong>Telefone:</strong> (84) 99166-9357</li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                target="_blank"
+                >Meu Perfil no LinkedIn</a
+              >
+            </li>
+            <li>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/Victorjudson" target="_blank"
+                >Meu GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="img/foto.jpeg" alt="foto de perfil" class="profile-img" />
+        </div>
+      </section>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
